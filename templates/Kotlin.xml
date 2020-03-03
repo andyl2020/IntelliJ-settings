@@ -1,0 +1,7 @@
+<templateSet group="Kotlin">
+  <template name="hzhz" value="// TODO: hzhz - $END$" description="quick TODO capped with my initials" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+</templateSet>

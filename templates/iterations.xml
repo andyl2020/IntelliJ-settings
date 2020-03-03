@@ -1,0 +1,13 @@
+<templateSet group="iterations">
+  <template name="ajx" value="let action = cmp.get('c.$END$');&#10;action.setParams({});&#10;action.setCallback(this, function (a) {&#10;    let res = a.getState();&#10;    if (res === &quot;SUCCESS&quot;) {&#10;        let ret = a.getReturnValue();&#10;    } else {&#10;        console.log('There was an error in $FILENAME$');&#10;        console.log('STATE: ' + res, a.getError()[0].message);&#10;    }&#10;});&#10;$A.enqueueAction(action);" description="Generates an AJAX Apex call" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="trca" value="try {&#10;    return $END$;&#10;} catch (Exception excptn) {&#10;    System.debug('$~-~APEX EXCEPTION~-~$: ' + excptn.getTypeName());&#10;    throw new AuraHandledException(excptn.getMessage());&#10;}" description="Inserts a try catch and throws error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+</templateSet>

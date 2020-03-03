@@ -1,0 +1,8 @@
+<code_scheme name="Default copy" version="173">
+  <ApexCodeStyleSettings>
+    <option name="APEX_DOC_BLANK_LINE_BEFORE_RETURN" value="false" />
+  </ApexCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_WHITESPACES_INSIDE" value="pre,textarea" />
+  </HTMLCodeStyleSettings>
+</code_scheme>
