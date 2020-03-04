@@ -1,9 +1,0 @@
-<templateSet group="Angular">
-  <template name="trca" value="try {&#10;$END$&#10;} catch (exception) {&#10;&#10;}" description="Insert a JS try catch" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CoffeeScript" value="true" />
-      <option name="ECMAScript6" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-</templateSet>
