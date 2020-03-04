@@ -1,0 +1,7 @@
+<templateSet group="ColdFusion">
+  <template name="sprb" value="Savepoint sp = Database.setSavepoint();&#10;$END$&#10;Database.rollback(sp);" description="Create savepoint and rollback" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+</templateSet>
