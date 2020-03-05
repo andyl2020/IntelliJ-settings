@@ -16,6 +16,7 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BraceOrQuoteOut" />
   <action id="ChangesView.Diff" />
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
@@ -52,7 +53,9 @@
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="EditorIndentSelection" />
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
@@ -82,6 +85,7 @@
     <mouse-shortcut keystroke="button5" />
   </action>
   <action id="GotoLine" />
+  <action id="GuiDesigner.IncreaseIndent" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
@@ -106,6 +110,8 @@
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAll" />
+  <action id="SearchEverywhere.CompleteCommand" />
+  <action id="SearchEverywhere.NextTab" />
   <action id="SearchEverywhere.PrevTab" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />
