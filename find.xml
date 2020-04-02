@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.cmp" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -12,7 +12,6 @@
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.js,*.cls, *.cmp, *.html</mask>
-    <mask>*.js</mask>
     <mask>*.js, *.css</mask>
     <mask>*.cls, *.workflow</mask>
     <mask>*.cls, *.flow</mask>
@@ -20,5 +19,6 @@
     <mask>*.css</mask>
     <mask>*.cls</mask>
     <mask>*.cmp</mask>
+    <mask>*.js</mask>
   </component>
 </application>
