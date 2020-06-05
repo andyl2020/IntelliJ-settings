@@ -1,11 +1,5 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="SaveAll" is_action="true" action_type="-1" position="4">
-      <path value="root" />
-      <path value="Main menu" />
-      <path value="File" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="SaveAll" is_action="true" action_type="-1" position="1">
       <path value="root" />
       <path value="Main Toolbar" />
@@ -43,5 +37,6 @@
       <path value="Illuminated Cloud" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <action id="Tool_External Tools_SFDX Deploy" icon="$USER_HOME$/Pictures/wallpapersden.com_spider-man-amazing-art_2560x1440.jpg" />
   </component>
 </application>

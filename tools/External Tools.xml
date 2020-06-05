@@ -2,7 +2,7 @@
   <tool name="SFDX Deploy" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/sfdx" />
-      <option name="PARAMETERS" value="force:source:deploy -u scratch -p $FileRelativePath$" />
+      <option name="PARAMETERS" value="force:source:deploy -u psa_scratch_1 -p $FileRelativePath$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
