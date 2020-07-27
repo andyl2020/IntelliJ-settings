@@ -17,7 +17,7 @@
     <mask>*.cls, *.flow, *.trigger</mask>
     <mask>*.css</mask>
     <mask>*.cls</mask>
-    <mask>*.cmp</mask>
     <mask>*.js</mask>
+    <mask>*.cmp</mask>
   </component>
 </application>
