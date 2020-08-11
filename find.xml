@@ -5,7 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.object" />
+    <option name="FILE_MASK" value="*.cls" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -20,8 +20,8 @@
     <mask>*.cls, *.flow, *.trigger</mask>
     <mask>*.cmp</mask>
     <mask>*.css</mask>
-    <mask>*.cls</mask>
     <mask>*.js</mask>
     <mask>*.object</mask>
+    <mask>*.cls</mask>
   </component>
 </application>
